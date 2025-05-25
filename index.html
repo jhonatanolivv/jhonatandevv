@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jhonatan O. - Desenvolvedor Front-end</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="toast" class="toast hidden"></div>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-container">
+          <a href="#home" class="nav-logo">Jhonatan O.</a>
+          <div class="nav-menu" id="nav-menu">
+            <a href="#home" class="nav-link">Início</a>
+            <a href="#about" class="nav-link">Sobre</a>
+            <a href="#skills" class="nav-link">Habilidades</a>
+            <a href="#projects" class="nav-link">Projetos</a>
+            <a href="#contact" class="nav-link">Contato</a>
+          </div>
+          <div class="nav-toggle" id="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Olá, eu sou <span class="highlight">Jhonatan</span>
+          </h1>
+          <h2 class="hero-subtitle">Desenvolvedor Front-end Junior</h2>
+          <p class="hero-description">
+            Apaixonado por criar experiências digitais incríveis e interfaces de
+            usuário modernas. Sempre em busca de novos desafios e oportunidades
+            de aprendizado.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+            <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-avatar">
+            <img
+              src="/assets/profile.jpg.jpg"
+              alt="Jhonatan Oliveira"
+              class="avatar-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Sou um desenvolvedor front-end júnior com paixão por tecnologia e
+              design. Tenho experiência em HTML5, CSS3, JavaScript e frameworks
+              modernos. Estou sempre buscando aprender novas tecnologias e
+              melhorar minhas habilidades.
+            </p>
+            <p>
+              Meu objetivo é criar interfaces de usuário intuitivas e
+              responsivas que proporcionem uma excelente experiência para os
+              usuários. Acredito que a combinação de código limpo e design
+              atrativo é fundamental para o sucesso de qualquer projeto web.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>10+</h3>
+                <p>Projetos Concluídos</p>
+              </div>
+              <div class="stat">
+                <h3>2+</h3>
+                <p>Anos de Estudo</p>
+              </div>
+              <div class="stat">
+                <h3>5+</h3>
+                <p>Tecnologias</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Estruturação semântica e acessível de páginas web</p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="90"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Estilização avançada, Flexbox, Grid e animações</p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="85"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Programação interativa e manipulação do DOM</p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="75"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+            <p>Desenvolvimento de interfaces com componentes</p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="70"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-git-alt"></i>
+            </div>
+            <h3>Git</h3>
+            <p>Controle de versão e colaboração em projetos</p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="80"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Responsive Design</h3>
+            <p>Desenvolvimento para todos os dispositivos</p>
+            <div class="skill-level">
+              <div class="skill-bar" data-level="85"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Meus Projetos</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/assets/project1.png" alt="Project1" />
+              <div class="project-overlay">
+                <a
+                  href="https://jhonatanolivv.github.io/DentalPage/"
+                  class="project-link"
+                  target="_blank"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+                <a
+                  href="https://github.com/jhonatanolivv"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>DentalPage – Landing Page para Clínica Odontológica</h3>
+              <p>
+                Projeto de uma landing page institucional para uma clínica
+                odontológica fictícia, com foco em design limpo, responsividade
+                e usabilidade. Desenvolvido com HTML5, CSS3 e JavaScript puro.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/assets/project2.png" alt="DentalPage" />
+              <div class="project-overlay">
+                <a
+                  href="https://jhonatanolivv.github.io/FreelaSaldo/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+                <a
+                  href="https://github.com/jhonatanolivv"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>
+                FreelaSaldo – Aplicativo de Controle Financeiro para Freelancers
+              </h3>
+              <p>
+                O FreelaSaldo é uma aplicação web desenvolvida para auxiliar
+                freelancers no gerenciamento de suas finanças pessoais. Com uma
+                interface intuitiva e responsiva, permite o registro e
+                acompanhamento de receitas e despesas, proporcionando uma visão
+                clara do saldo disponível.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">LocalStorage</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/assets/project3.png" alt="Weather App" />
+              <div class="project-overlay">
+                <a
+                  href="https://jhonatanolivv.github.io/PortfolioPro/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+                <a
+                  href="https://github.com/jhonatanolivv"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>PortfolioPro – Portfólio Profissional Responsivo</h3>
+              <p>
+                O PortfolioPro é um site pessoal desenvolvido para apresentar
+                suas habilidades, projetos e informações de contato de forma
+                clara e profissional. Construído com HTML, CSS e JavaScript, o
+                projeto oferece uma interface moderna e responsiva, adaptando-se
+                a diferentes dispositivos.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">API</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="/assets/project4.png" alt="Landing Page" />
+              <div class="project-overlay">
+                <a
+                  href="https://jhonatanolivv.github.io/criticine/"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+                <a
+                  href="https://github.com/jhonatanolivv"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Criticine – Aplicativo Web de Busca de Filmes e Séries</h3>
+              <p>
+                O Criticine é uma aplicação web desenvolvida com HTML5, CSS3 e
+                JavaScript puro, que consome a API pública do TMDb para exibir
+                informações sobre filmes e séries. O projeto demonstra
+                habilidades em consumo de APIs REST, manipulação do DOM e
+                criação de interfaces responsivas sem o uso de frameworks.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Vamos trabalhar juntos!</h3>
+            <p>
+              Estou sempre aberto a novas oportunidades e projetos
+              interessantes. Entre em contato comigo!
+            </p>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>jhonatanolivv@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+54 (11) 6454-1174</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Buenos Aires, CABA - Argentina</span>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/jhonatan-de-oliveira-b8a175262/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/jhonatanolivv"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Seu Nome"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Seu Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Assunto"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Sua Mensagem"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" id="btn-submit" class="btn btn-primary">
+              Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2024 Jhonatan Oliveira. Todos os direitos reservados.</p>
+          <p>Desenvolvido com ❤️ e muito ☕</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
