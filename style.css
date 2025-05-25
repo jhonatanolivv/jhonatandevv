@@ -199,8 +199,8 @@ body {
 }
 
 .avatar-img {
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -684,11 +684,11 @@ body {
 }
 
 .toast.success {
-  background-color: #16a34a;
+  background-color: #16a34a; /* Verde */
 }
 
 .toast.error {
-  background-color: #dc2626;
+  background-color: #dc2626; /* Vermelho */
 }
 
 .toast.show {
